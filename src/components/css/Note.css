@@ -1,0 +1,33 @@
+.note {
+    border: 3px solid var(--Base);
+    padding: 1rem;
+    padding-top: 0;
+    background: var(--Rosewater);
+}
+h2 {
+    overflow: scroll;
+    /* text-overflow: clip; */
+    scrollbar-width: none;
+}
+h2::-webkit-scrollbar {
+    display: none;
+}
+.note button {
+    background: black;
+    padding: 2px 5px;
+    color: white;
+
+    position: relative;
+    left: calc(100% - 2px);
+    font-size: 1rem;
+}
+.note-content {
+    max-height: 250px;
+    min-height: 250px;
+
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.note-content::-webkit-scrollbar {
+    display: none;
+}

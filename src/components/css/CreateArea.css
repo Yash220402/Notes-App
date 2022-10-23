@@ -1,0 +1,45 @@
+* {
+    border-style: none;
+}
+.create-area {
+    align-self: center;
+    width: 450px;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.create-area input {
+    outline: 0;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: 3px solid #313244;
+    border-bottom: 0;
+
+    background: var(--Mauve);
+}
+
+.create-area textarea {
+    padding: 0.5rem;
+    resize: none;
+    background: lightcyan;
+    border: 3px solid #313244;
+}
+
+.create-area textarea:focus {
+    outline: none;
+}
+
+.create-area button {
+    position: relative;
+    width: 3rem;
+    height: 1.5rem;
+    bottom: 1.5rem;
+
+    left: calc(100% - 3rem);
+
+    background: #313244;
+    border-style: none;
+
+    color: white;
+}
