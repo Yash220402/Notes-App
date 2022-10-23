@@ -15,7 +15,6 @@ import { useState } from 'react';
 function App() {
 
     const [notes, setNotes] = useState([]);
-    // const [showOverlay, setShowOverlay] = useState(false);
 
     function addNote(newNote) {
         setNotes(prevNotes => {
@@ -44,7 +43,6 @@ function App() {
                         title={noteItem.title} 
                         content={noteItem.content} 
                         onDelete={deleteNote}
-                        // onView={() => setShowOverlay(true)}
                     />)
                 })}
             </div>

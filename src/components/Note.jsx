@@ -6,10 +6,6 @@ function Note(props) {
         return props.onDelete(props.id);
     }
 
-    function viewNote() {
-        return props.onView(props.title, props.content);
-    }
-
     return (
         <div className="note">
             <button onClick={viewNote}>V</button>
